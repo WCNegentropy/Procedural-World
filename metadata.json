@@ -1,0 +1,5 @@
+{
+  "name": "Procedural 2D World Engine",
+  "description": "An interactive procedural 2D world generator. Explore a deterministic, seed-based world with simulated NPCs and various biomes. View different data layers like height and moisture maps.",
+  "requestFramePermissions": []
+}
