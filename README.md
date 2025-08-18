@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Procedural 2D World Explorer
 
-# Run and deploy your AI Studio app
+This repository contains a 2D procedural engine proof-of-concept.
 
-This contains everything you need to run your app locally.
+Run locally:
+1. npm install
+2. npm run dev
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MZL-GtOxQjCd6OD5bzqY99jbwAk08WfV
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Notes:
+- Do not store API keys in the repo. If you need environment variables, create a local .env (for example `.env.local`) and add it to your .gitignore.
+- This repository is self-contained and does not require any external platform-specific keys by default.
